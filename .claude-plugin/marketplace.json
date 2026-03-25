@@ -1,0 +1,27 @@
+{
+  "name": "mobile-team-skills",
+  "owner": {
+    "name": "2sem",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Claude Code skills and agent definitions for mobile (iOS) teams",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "mobile-team-skills",
+      "source": "./plugins/mobile-team-skills",
+      "description": "iOS mobile team skills: HIG design spec, ASO analysis, and test runner",
+      "version": "1.0.0",
+      "author": {
+        "name": "2sem"
+      },
+      "homepage": "https://github.com/2sem/mobile-team-skills",
+      "repository": "https://github.com/2sem/mobile-team-skills",
+      "license": "MIT",
+      "keywords": ["ios", "swift", "swiftui", "aso", "hig", "testing", "mobile"],
+      "category": "mobile"
+    }
+  ]
+}

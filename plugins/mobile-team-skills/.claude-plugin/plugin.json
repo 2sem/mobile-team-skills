@@ -1,0 +1,12 @@
+{
+  "name": "mobile-team-skills",
+  "description": "iOS mobile team skills: HIG design spec, ASO analysis, and test runner for WhereWeGo / Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "2sem"
+  },
+  "homepage": "https://github.com/2sem/mobile-team-skills",
+  "repository": "https://github.com/2sem/mobile-team-skills",
+  "license": "MIT",
+  "keywords": ["ios", "swift", "swiftui", "aso", "hig", "testing", "mobile"]
+}
