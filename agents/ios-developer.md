@@ -65,6 +65,7 @@ WhereWeGoApp (App.swift)
 - `CLLocationCoordinate2D` needs `@retroactive Equatable` for `.onChange(of:)`
 - `toolbarForegroundStyle` is macOS-only — use `.foregroundStyle()` per item
 - `UIViewRepresentable` `.frame` ambiguity: split into two `.frame` calls (one per dimension)
+- **Tappable rows**: always add `.contentShape(Rectangle())` before `.onTapGesture` on any row/container — without it, only the visible content is tappable, not the full row area
 
 ## Output Expectations
 
