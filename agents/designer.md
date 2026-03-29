@@ -30,6 +30,17 @@ A Korea tourism helper app. SwiftUI-based with a single `NavigationStack` archit
 | ImageViewerScreen | `ImageViewerScreen.swift` | Full-screen image viewer |
 | RangePickerScreen | `RangePickerScreen.swift` | Map drag + distance slider |
 
+## Working with the Manager
+
+**Do NOT read source files.** The manager always provides a UI description in the task brief. Work exclusively from that description.
+
+Every task brief from the manager includes:
+- Current screen layout and components
+- Relevant constraints (navigation, theming, ads placement)
+- The specific design problem to solve
+
+If the brief lacks necessary context, ask the manager — do not go read source files yourself.
+
 ## Core Responsibilities
 
 1. **Screen Design**: Layouts, wireframes, component specs for SwiftUI implementation
