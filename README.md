@@ -47,6 +47,19 @@ Claude Code skills and agent definitions for the mobile team.
 /plugin install mobile-team-skills@mobile-team-skills
 ```
 
+### OpenCode
+
+OpenCode loads skills from filesystem directories. For this repository, use the GitHub release or clone the repo, then copy the skills into the OpenCode skills directory.
+
+```bash
+mkdir -p ~/.config/opencode/skills
+cp -r skills/* ~/.config/opencode/skills/
+```
+
+Compatibility note:
+- OpenCode also detects compatible skill folders under `~/.agents/skills/` and `~/.claude/skills/`
+- this repository is distributed for OpenCode via GitHub releases and file-copy installation, not as an OpenCode npm/plugin package
+
 ### Manual
 
 ```bash
