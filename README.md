@@ -15,8 +15,17 @@ Claude Code skills and agent definitions for the mobile team.
 |-------|---------|--------------------------|
 | `appstore-review-cs` | App Store review workflow wrapper for the cs agent | External appstore skill wiring |
 | `ios-design-spec` | Quick HIG audit, component selection, accessibility check | `designer` subagent |
+| `ios-simulator-skill` | iOS simulator build, UI automation, accessibility, and device lifecycle scripts | `tester` subagent for lightweight simulator tasks |
 | `aso-analysis` | App Store analysis checklist, keyword check | `marketer` subagent |
 | `ios-test-runner` | Build + run tests, report results | `tester` subagent |
+
+### iOS Simulator Skill Notes
+
+- Location: `skills/ios-simulator-skill/`
+- Includes bundled automation scripts under `skills/ios-simulator-skill/scripts/`
+- Also includes imported helper scripts:
+  - `idb-open-work-alarm.sh`
+  - `idb-session.sh`
 
 ## Agents
 
