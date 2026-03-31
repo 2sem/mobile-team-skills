@@ -31,7 +31,7 @@ Claude Code skills and agent definitions for the mobile team.
 
 ## Install
 
-### Via `/plugin` (recommended)
+### Via `/plugin` (Claude Code only)
 
 ```
 /plugin marketplace add 2sem/mobile-team-skills
