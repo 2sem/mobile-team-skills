@@ -1,0 +1,1 @@
+Useful Darwin/project commands: ls, pwd, git status, git diff, git log --oneline, cp agents/*.md ~/.claude/agents/, cp -r skills/* ~/.claude/skills/. Project inspection: read README.md and CLAUDE.md for repo rules. There are no documented package-manager, lint, format, or test commands in the repo at present.

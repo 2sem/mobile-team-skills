@@ -13,6 +13,7 @@ Claude Code skills and agent definitions for the mobile team.
 
 | Skill | Purpose | Replaces (for light use) |
 |-------|---------|--------------------------|
+| `appstore-review-cs` | App Store review workflow wrapper for the cs agent | External appstore skill wiring |
 | `ios-design-spec` | Quick HIG audit, component selection, accessibility check | `designer` subagent |
 | `aso-analysis` | App Store analysis checklist, keyword check | `marketer` subagent |
 | `ios-test-runner` | Build + run tests, report results | `tester` subagent |
