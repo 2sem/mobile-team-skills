@@ -31,6 +31,15 @@ Claude Code skills and agent definitions for the mobile team.
 
 ## Install
 
+### Via `/plugin` (Claude Code only)
+
+```
+/plugin marketplace add 2sem/mobile-team-skills
+/plugin install mobile-team-skills@mobile-team-skills
+```
+
+### Manual
+
 ```bash
 cp agents/*.md ~/.claude/agents/
 cp -r skills/* ~/.claude/skills/
