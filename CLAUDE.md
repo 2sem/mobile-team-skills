@@ -34,6 +34,7 @@ cp -r skills/* ~/.claude/skills/
 
 | Skill | Use skill when | Escalate to subagent when |
 |-------|---------------|--------------------------|
+| `ios-simulator-skill` | Lightweight simulator boot, launch, navigation, accessibility, or device lifecycle work | Full-suite testing, failure diagnosis, or broader QA coverage |
 | `ios-design-spec` | HIG check, component pick, quick layout question | Full screen design, new nav flow, complex interactions |
 | `aso-analysis` | ASO checklist, keyword check, quick competitor scan | Full strategy, campaign planning, detailed report |
 | `ios-test-runner` | Smoke build/test after simple change | Full suite, coverage analysis, complex failure diagnosis |
