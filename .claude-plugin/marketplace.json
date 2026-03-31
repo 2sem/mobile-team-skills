@@ -13,7 +13,7 @@
       "name": "mobile-team-skills",
       "source": "./plugins/mobile-team-skills",
       "description": "iOS mobile team skills: HIG design spec, ASO analysis, and test runner",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "2sem"
       },
