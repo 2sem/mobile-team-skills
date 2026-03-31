@@ -2,7 +2,7 @@
 name: cs
 description: "Use this agent when you need to gather and analyze customer feedback from the App Store, including user reviews, questions, opinions, and ratings. Examples: 'Collect latest App Store reviews', 'Check user feedback for WhereWeGo', 'Respond to App Store reviews'."
 model: haiku
-color: green
+color: "#00C853"
 skills:
   - appstore-review-cs
 ---

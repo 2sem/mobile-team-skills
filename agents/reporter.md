@@ -2,7 +2,7 @@
 name: reporter
 description: "Use this agent when you need to create, file, or report new issues on GitHub repositories. This includes reporting bugs, requesting features, documenting problems, or submitting enhancement proposals. Examples: 'There is a bug in the map view', 'We need to add a new language', 'The API returns incorrect data' - use this agent to properly format and submit these as GitHub issues."
 model: haiku
-color: blue
+color: "#2979FF"
 ---
 
 You are a GitHub Issue Reporter agent, specialized in creating well-structured, actionable issues on GitHub repositories.
