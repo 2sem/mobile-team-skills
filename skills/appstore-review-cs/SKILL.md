@@ -11,13 +11,15 @@ Use the external App Store skill installed at `~/.config/opencode/skills/appstor
 
 1. Get the numeric app ID if needed: `getappid {bundle_id}`
 2. Fetch reviews: `reviews {app_id} {count?}`
-3. Submit a response: `response {review_id}`
+3. If a last report date is provided, exclude reviews dated before that date from the report
+4. Submit a response: `response {review_id}`
 
 ## Requirements
 
 - Use the external `appstore` skill for command execution details and auth setup.
 - Always include the **Review ID** when reporting actionable feedback to the reporter agent.
 - Preserve review categorization: Bug, Feature Request, Question, Praise, Complaint.
+- When producing a review report, include only reviews dated on or after the last report date if one is provided.
 
 ## Example
 
